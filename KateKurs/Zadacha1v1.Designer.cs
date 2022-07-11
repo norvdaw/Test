@@ -184,7 +184,7 @@ namespace KateKurs
             this.label1.Size = new System.Drawing.Size(446, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Цеха, в которых количество бракованных деталей не превышает:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // txtBad
             // 

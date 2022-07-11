@@ -3,7 +3,6 @@ using System.Windows.Forms;
 
 namespace KateKurs
 {
-
     public partial class Zadacha3v1 : Form
     {
         public Zadacha3v1()
@@ -11,7 +10,6 @@ namespace KateKurs
             InitializeComponent();
             FillDGV();
         }
-
         private void btnFill_Click(object sender, EventArgs e)
         {
             FillDGV();
@@ -29,7 +27,6 @@ namespace KateKurs
                 System.Windows.Forms.MessageBox.Show(ex.Message);
             }
         }
-
         private void btnOnForm_Click(object sender, EventArgs e)
         {
             Form1 f = new Form1();
