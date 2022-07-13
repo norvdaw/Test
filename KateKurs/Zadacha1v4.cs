@@ -10,7 +10,7 @@ namespace KateKurs
         {
             InitializeComponent();
         }
-       
+
         private void QeryZapr4()
         {
             try
@@ -23,11 +23,11 @@ namespace KateKurs
                     DataSet1.Zadacha1Row zRow = dataSet1.Zadacha1.NewZadacha1Row();
                     DataSet1.sostavRow iRow = uRow.GetParentRow("uchet_sostav") as DataSet1.sostavRow;
                     if (uRow.kolvo_bad > num)
-                        continue;                                   
+                        continue;
                     zRow.id_detail = uRow.id_detail;
                     zRow.kolvo_bad = uRow.kolvo_bad;
                     zRow.kolvo_good = uRow.kolvo_good;
-                    dataSet1.Zadacha1.Rows.Add(zRow);                    
+                    dataSet1.Zadacha1.Rows.Add(zRow);
                 }
             }
             catch (Exception ex)
@@ -46,9 +46,9 @@ namespace KateKurs
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.sostav". При необходимости она может быть перемещена или удалена.
             this.sostavTableAdapter.Fill(this.dataSet1.sostav);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.record". При необходимости она может быть перемещена или удалена.
-            
+
 
         }
-                
+
     }
 }

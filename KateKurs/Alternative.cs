@@ -8,6 +8,8 @@ namespace KateKurs
         public Alternative()
         {
             InitializeComponent();
+            dgvAlt.RowHeadersVisible = false;
+            dgvAlt.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void Alternative_Load(object sender, EventArgs e)
@@ -18,8 +20,8 @@ namespace KateKurs
             this.sostavTableAdapter.Fill(this.dataSet1.sostav);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.norm". При необходимости она может быть перемещена или удалена.
             this.normTableAdapter.Fill(this.dataSet1.norm);
-       
-           
+
+
         }
 
         private void btnNorm_Click(object sender, EventArgs e)

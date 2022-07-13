@@ -44,10 +44,7 @@ namespace KateKurs
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.dataSet1 = new KateKurs.DataSet1();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataSet11 = new KateKurs.DataSet1();
-            this.normSosUchBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.normSosUchTableAdapter = new KateKurs.DataSet1TableAdapters.NormSosUchTableAdapter();
+            this.dgvView = new System.Windows.Forms.DataGridView();
             this.номерРабочегоDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.номерДеталиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.номерОперацииDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -60,12 +57,15 @@ namespace KateKurs
             this.количествоБракаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.количествоГодныхДеталейDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.фИОDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.normSosUchBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataSet11 = new KateKurs.DataSet1();
+            this.normSosUchTableAdapter = new KateKurs.DataSet1TableAdapters.NormSosUchTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.normSosUchBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             this.SuspendLayout();
             // 
             // bindingNavigator1
@@ -93,7 +93,7 @@ namespace KateKurs
             this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigator1.Size = new System.Drawing.Size(1453, 27);
+            this.bindingNavigator1.Size = new System.Drawing.Size(993, 31);
             this.bindingNavigator1.TabIndex = 0;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -103,7 +103,7 @@ namespace KateKurs
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
             this.bindingNavigatorAddNewItem.Text = "Добавить";
             // 
             // bindingNavigatorCountItem
@@ -149,6 +149,7 @@ namespace KateKurs
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Положение";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 27);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -187,11 +188,11 @@ namespace KateKurs
             this.dataSet1.DataSetName = "DataSet1";
             this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // dataGridView1
+            // dgvView
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvView.AutoGenerateColumns = false;
+            this.dgvView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.номерРабочегоDataGridViewTextBoxColumn,
             this.номерДеталиDataGridViewTextBoxColumn,
             this.номерОперацииDataGridViewTextBoxColumn,
@@ -204,27 +205,13 @@ namespace KateKurs
             this.количествоБракаDataGridViewTextBoxColumn,
             this.количествоГодныхДеталейDataGridViewTextBoxColumn,
             this.фИОDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.normSosUchBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(13, 31);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1411, 307);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // dataSet11
-            // 
-            this.dataSet11.DataSetName = "DataSet1";
-            this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // normSosUchBindingSource
-            // 
-            this.normSosUchBindingSource.DataMember = "NormSosUch";
-            this.normSosUchBindingSource.DataSource = this.dataSet11;
-            // 
-            // normSosUchTableAdapter
-            // 
-            this.normSosUchTableAdapter.ClearBeforeFill = true;
+            this.dgvView.DataSource = this.normSosUchBindingSource;
+            this.dgvView.Location = new System.Drawing.Point(13, 31);
+            this.dgvView.Name = "dgvView";
+            this.dgvView.RowHeadersWidth = 51;
+            this.dgvView.RowTemplate.Height = 24;
+            this.dgvView.Size = new System.Drawing.Size(969, 439);
+            this.dgvView.TabIndex = 1;
             // 
             // номерРабочегоDataGridViewTextBoxColumn
             // 
@@ -322,12 +309,26 @@ namespace KateKurs
             this.фИОDataGridViewTextBoxColumn.Name = "фИОDataGridViewTextBoxColumn";
             this.фИОDataGridViewTextBoxColumn.Width = 125;
             // 
+            // normSosUchBindingSource
+            // 
+            this.normSosUchBindingSource.DataMember = "NormSosUch";
+            this.normSosUchBindingSource.DataSource = this.dataSet11;
+            // 
+            // dataSet11
+            // 
+            this.dataSet11.DataSetName = "DataSet1";
+            this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // normSosUchTableAdapter
+            // 
+            this.normSosUchTableAdapter.ClearBeforeFill = true;
+            // 
             // VIEW
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1453, 502);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(993, 482);
+            this.Controls.Add(this.dgvView);
             this.Controls.Add(this.bindingNavigator1);
             this.Name = "VIEW";
             this.Text = "VIEW";
@@ -336,9 +337,9 @@ namespace KateKurs
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.normSosUchBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -359,7 +360,7 @@ namespace KateKurs
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private DataSet1 dataSet1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvView;
         private DataSet1 dataSet11;
         private System.Windows.Forms.BindingSource normSosUchBindingSource;
         private DataSet1TableAdapters.NormSosUchTableAdapter normSosUchTableAdapter;

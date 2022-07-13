@@ -26,11 +26,23 @@ namespace KateKurs.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-LP3M677;Initial Catalog=proekt;Integrated Security=True;Conne" +
-            "ct Timeout=30;Encrypt=False;TrustServerCertificate=False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-P21HHI0V\\SQLEXPRESS;Initial Catalog=proekt;Integrated Security" +
+            "=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False")]
         public string proektConnectionString {
             get {
                 return ((string)(this["proektConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=C:\\USERS\\NORVDAW\\DOCUMENTS\\GIT" +
+            "HUB\\TEST\\KURSDB.MDF;Integrated Security=True;Connect Timeout=30;Encrypt=False;Tr" +
+            "ustServerCertificate=False")]
+        public string C__USERS_NORVDAW_DOCUMENTS_GITHUB_TEST_KURSDB_MDFConnectionString {
+            get {
+                return ((string)(this["C__USERS_NORVDAW_DOCUMENTS_GITHUB_TEST_KURSDB_MDFConnectionString"]));
             }
         }
     }

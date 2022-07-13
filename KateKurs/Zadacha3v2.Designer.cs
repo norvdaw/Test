@@ -36,7 +36,7 @@ namespace KateKurs
             this.txtBad = new System.Windows.Forms.TextBox();
             this.txtTime = new System.Windows.Forms.TextBox();
             this.dataSet1 = new KateKurs.DataSet1();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvZ3v2 = new System.Windows.Forms.DataGridView();
             this.fIODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.zadacha3BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.zadacha3TableAdapter = new KateKurs.DataSet1TableAdapters.Zadacha3TableAdapter();
@@ -47,7 +47,7 @@ namespace KateKurs
             this.uchetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.uchetTableAdapter = new KateKurs.DataSet1TableAdapters.uchetTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvZ3v2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zadacha3BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.normBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sostavBindingSource)).BeginInit();
@@ -67,7 +67,7 @@ namespace KateKurs
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(422, 138);
+            this.label3.Location = new System.Drawing.Point(368, 138);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(220, 17);
             this.label3.TabIndex = 13;
@@ -76,7 +76,7 @@ namespace KateKurs
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(422, 81);
+            this.label2.Location = new System.Drawing.Point(368, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(192, 17);
             this.label2.TabIndex = 12;
@@ -84,7 +84,7 @@ namespace KateKurs
             // 
             // txtBad
             // 
-            this.txtBad.Location = new System.Drawing.Point(648, 138);
+            this.txtBad.Location = new System.Drawing.Point(600, 138);
             this.txtBad.Name = "txtBad";
             this.txtBad.Size = new System.Drawing.Size(100, 22);
             this.txtBad.TabIndex = 11;
@@ -93,7 +93,7 @@ namespace KateKurs
             // 
             // txtTime
             // 
-            this.txtTime.Location = new System.Drawing.Point(648, 81);
+            this.txtTime.Location = new System.Drawing.Point(600, 81);
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(100, 22);
             this.txtTime.TabIndex = 10;
@@ -105,19 +105,19 @@ namespace KateKurs
             this.dataSet1.DataSetName = "DataSet1";
             this.dataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // dataGridView1
+            // dgvZ3v2
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvZ3v2.AutoGenerateColumns = false;
+            this.dgvZ3v2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvZ3v2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fIODataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.zadacha3BindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(360, 248);
-            this.dataGridView1.TabIndex = 18;
+            this.dgvZ3v2.DataSource = this.zadacha3BindingSource;
+            this.dgvZ3v2.Location = new System.Drawing.Point(12, 31);
+            this.dgvZ3v2.Name = "dgvZ3v2";
+            this.dgvZ3v2.RowHeadersWidth = 51;
+            this.dgvZ3v2.RowTemplate.Height = 24;
+            this.dgvZ3v2.Size = new System.Drawing.Size(350, 248);
+            this.dgvZ3v2.TabIndex = 18;
             // 
             // fIODataGridViewTextBoxColumn
             // 
@@ -167,8 +167,8 @@ namespace KateKurs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.ClientSize = new System.Drawing.Size(717, 450);
+            this.Controls.Add(this.dgvZ3v2);
             this.Controls.Add(this.btnFill);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -178,7 +178,7 @@ namespace KateKurs
             this.Text = "Zadacha3v2";
             this.Load += new System.EventHandler(this.Zadacha3v2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvZ3v2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zadacha3BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.normBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sostavBindingSource)).EndInit();
@@ -195,7 +195,7 @@ namespace KateKurs
         private System.Windows.Forms.TextBox txtBad;
         private System.Windows.Forms.TextBox txtTime;
         private DataSet1 dataSet1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvZ3v2;
         private System.Windows.Forms.DataGridViewTextBoxColumn fIODataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource zadacha3BindingSource;
         private DataSet1TableAdapters.Zadacha3TableAdapter zadacha3TableAdapter;

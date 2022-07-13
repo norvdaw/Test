@@ -10,7 +10,7 @@ namespace KateKurs
         {
             InitializeComponent();
         }
-       
+
         private void QeryZapr2()
         {
             try
@@ -30,7 +30,7 @@ namespace KateKurs
                         zRow.id_ceh = sRow.id_ceh;
                         zRow.id_detail = uRow.id_detail;
                         zRow.kolvo_bad = uRow.kolvo_bad;
-                        zRow.kolvo_good = uRow.kolvo_good;                        
+                        zRow.kolvo_good = uRow.kolvo_good;
                     }
 
                     dataSet1.Zadacha1.Rows.Add(zRow);
@@ -47,7 +47,7 @@ namespace KateKurs
             QeryZapr2();
         }
 
-       
+
 
         private void Zadacha1v2_Load(object sender, EventArgs e)
         {
@@ -56,7 +56,7 @@ namespace KateKurs
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.sostav". При необходимости она может быть перемещена или удалена.
             this.sostavTableAdapter.Fill(this.dataSet1.sostav);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.record". При необходимости она может быть перемещена или удалена.
-            
+
 
         }
     }

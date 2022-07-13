@@ -8,6 +8,8 @@ namespace KateKurs
         public Zadacha3v2()
         {
             InitializeComponent();
+            dgvZ3v2.RowHeadersVisible = false;
+            dgvZ3v2.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void Zadacha3v2_Load(object sender, EventArgs e)
@@ -62,6 +64,6 @@ namespace KateKurs
         }
 
     }
-       
-    }
+
+}
 

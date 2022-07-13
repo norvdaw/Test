@@ -16,3 +16,6 @@ C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\obj\Release\KateKurs.csproj.Gene
 C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\obj\Release\KateKurs.csproj.CoreCompileInputs.cache
 C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\obj\Release\KateKurs.exe
 C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\obj\Release\KateKurs.pdb
+C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\obj\Release\KateKurs.csprojAssemblyReference.cache
+C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\Norvdaw\Documents\GitHub\Test\KateKurs\obj\Release\KateKurs.csproj.CopyComplete

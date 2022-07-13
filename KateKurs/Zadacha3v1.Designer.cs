@@ -50,7 +50,7 @@ namespace KateKurs
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnOnForm = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvZ3v1 = new System.Windows.Forms.DataGridView();
             this.fIODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.zadacha3BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataSet1 = new KateKurs.DataSet1();
@@ -59,7 +59,7 @@ namespace KateKurs
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvZ3v1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zadacha3BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             this.SuspendLayout();
@@ -246,19 +246,19 @@ namespace KateKurs
             this.toolStripButton2.Size = new System.Drawing.Size(29, 24);
             this.toolStripButton2.Text = "toolStripButton2";
             // 
-            // dataGridView1
+            // dgvZ3v1
             // 
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvZ3v1.AutoGenerateColumns = false;
+            this.dgvZ3v1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvZ3v1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fIODataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.zadacha3BindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 55);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(311, 256);
-            this.dataGridView1.TabIndex = 11;
+            this.dgvZ3v1.DataSource = this.zadacha3BindingSource;
+            this.dgvZ3v1.Location = new System.Drawing.Point(12, 55);
+            this.dgvZ3v1.Name = "dgvZ3v1";
+            this.dgvZ3v1.RowHeadersWidth = 51;
+            this.dgvZ3v1.RowTemplate.Height = 24;
+            this.dgvZ3v1.Size = new System.Drawing.Size(311, 256);
+            this.dgvZ3v1.TabIndex = 11;
             // 
             // fIODataGridViewTextBoxColumn
             // 
@@ -307,7 +307,7 @@ namespace KateKurs
             this.ClientSize = new System.Drawing.Size(743, 409);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvZ3v1);
             this.Controls.Add(this.bindingNavigator1);
             this.Controls.Add(this.btnFill);
             this.Controls.Add(this.label3);
@@ -319,7 +319,7 @@ namespace KateKurs
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).EndInit();
             this.bindingNavigator1.ResumeLayout(false);
             this.bindingNavigator1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvZ3v1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zadacha3BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             this.ResumeLayout(false);
@@ -347,7 +347,7 @@ namespace KateKurs
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton btnOnForm;
         private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvZ3v1;
         private System.Windows.Forms.DataGridViewTextBoxColumn fIODataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource zadacha3BindingSource;
         private DataSet1 dataSet1;

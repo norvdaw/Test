@@ -9,13 +9,13 @@ namespace KateKurs
         {
             InitializeComponent();
         }
-       
+
         private void fill1DGV()
         {
-            
-                int kolvo_bad = int.Parse(txtBad.Text);
-                zadacha1TableAdapter.Fill(dataSet1.Zadacha1, kolvo_bad);            
-          
+
+            int kolvo_bad = int.Parse(txtBad.Text);
+            zadacha1TableAdapter.Fill(dataSet1.Zadacha1, kolvo_bad);
+
         }
 
         private void btnFill_Click(object sender, EventArgs e)
@@ -23,8 +23,8 @@ namespace KateKurs
             fill1DGV();
         }
 
-   
 
-       
+
+
     }
 }

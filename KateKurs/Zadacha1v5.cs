@@ -11,7 +11,7 @@ namespace KateKurs
         {
             InitializeComponent();
         }
-        
+
         private void FillByReader()
         {
             string conStr = Properties.Settings.Default.proektConnectionString;
@@ -69,7 +69,7 @@ namespace KateKurs
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.sostav". При необходимости она может быть перемещена или удалена.
             this.sostavTableAdapter.Fill(this.dataSet1.sostav);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "dataSet1.record". При необходимости она может быть перемещена или удалена.
-           
+
 
         }
     }
