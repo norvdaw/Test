@@ -1,0 +1,57 @@
+C:\Users\Norvdaw\Desktop\СахраКурсовая\bin\Debug\SahraKurs.exe.config
+C:\Users\Norvdaw\Desktop\СахраКурсовая\bin\Debug\SahraKurs.exe
+C:\Users\Norvdaw\Desktop\СахраКурсовая\bin\Debug\SahraKurs.pdb
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Alternative.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Form1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Properties.Resources.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.VIEW.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha1v1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha1v2.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha1v3.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha1v4.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha1v5.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha3v1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.Zadacha3v2.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.csproj.GenerateResource.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.csproj.CoreCompileInputs.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.exe
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.pdb
+C:\Users\Norvdaw\Desktop\СахраКурсовая\obj\Debug\SahraKurs.csprojAssemblyReference.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\bin\Debug\SahraKurs.exe.config
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\bin\Debug\SahraKurs.exe
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\bin\Debug\SahraKurs.pdb
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.csprojAssemblyReference.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Alternative.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Form1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Properties.Resources.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.VIEW.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha1v1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha1v2.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha1v3.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha1v4.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha1v5.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha3v1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.Zadacha3v2.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.csproj.GenerateResource.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.csproj.CoreCompileInputs.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.exe
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия\obj\Debug\SahraKurs.pdb
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\bin\Debug\SahraKurs.exe.config
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\bin\Debug\SahraKurs.exe
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\bin\Debug\SahraKurs.pdb
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.csprojAssemblyReference.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Alternative.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Form1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Properties.Resources.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.VIEW.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha1v1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha1v2.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha1v3.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha1v4.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha1v5.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha3v1.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.Zadacha3v2.resources
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.csproj.GenerateResource.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.csproj.CoreCompileInputs.cache
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.exe
+C:\Users\Norvdaw\Desktop\СахраКурсовая — копия — копия\obj\Debug\SahraKurs.pdb
