@@ -1,0 +1,16 @@
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Release\KursDB.mdf
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Release\KursDB_log.ldf
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Release\KateKurs.exe.config
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Release\KateKurs.exe
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Release\KateKurs.pdb
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.csprojAssemblyReference.cache
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.Properties.Resources.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.VIEW.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.csproj.GenerateResource.cache
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.csproj.CoreCompileInputs.cache
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.exe
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.pdb
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.DataDispleyAlternative.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.DataDispley.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.Task1.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Release\KateKurs.Task3.resources
