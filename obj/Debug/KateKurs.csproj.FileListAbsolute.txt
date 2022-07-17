@@ -38,3 +38,24 @@ C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия\obj\Debug\K
 C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия\obj\Debug\KateKurs.csproj.CoreCompileInputs.cache
 C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия\obj\Debug\KateKurs.exe
 C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия\obj\Debug\KateKurs.pdb
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Debug\KursDB.mdf
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Debug\KursDB_log.ldf
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Debug\KateKurs.exe.config
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Debug\KateKurs.exe
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\bin\Debug\KateKurs.pdb
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.csprojAssemblyReference.cache
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Alternative.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Form1.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Properties.Resources.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.VIEW.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha1v1.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha1v2.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha1v3.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha1v4.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha1v5.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha3v1.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.Zadacha3v2.resources
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.csproj.GenerateResource.cache
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.csproj.CoreCompileInputs.cache
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.exe
+C:\Users\Norvdaw\Desktop\РегинаКурсовая — копия — копия\obj\Debug\KateKurs.pdb
