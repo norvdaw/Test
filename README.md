@@ -1,5 +1,7 @@
 <h1 align="center">Coursework</h1>
 
+> Для запуска программы необходимо установить SqlLocalDB.msi (<a href="https://download.microsoft.com/download/9/0/7/907AD35F-9F9C-43A5-9789-52470555DB90/ENU/SqlLocalDB.msi" target="_blank">Нажмите для установки с официального сайта Microsoft</a>)
+
 <h3 align="center"> Исходные данные</h3>
 
 <h4 align="center">05:Нормы затрат труда <–>> 11:Учет выработки <<–> 10:Личный состав</h4>
