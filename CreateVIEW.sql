@@ -1,17 +1,17 @@
 use KursDB
-CREATE VIEW NormSosUch AS -- Объединение данных из трех таблиц в одну
-	select u.id_worker as [Номер рабочего],
-	u.id_detail as [Номер детали],
-			u.id_oper as [Номер операции],
-			u.date_work as [Дата выполнения работ],
-			n.id_prof as [Номер профессии],
-			n.razryad as [Разряд рабочего],
-			n.time_all as [Время выполнения работы],
-			s.id_ceh as [Номер цеха],
-			s.id_uch as [Номер участка],
-			u.kolvo_bad as [Количество брака],
-			u.kolvo_good as [Количество годных деталей],
-			s.FIO as [ФИО]
+CREATE VIEW NormSosUch AS --  РћР±СЉРµРґРёРЅРµРЅРёРµ РґР°РЅРЅС‹С… РёР· С‚СЂРµС… С‚Р°Р±Р»РёС† РІ РѕРґРЅСѓ
+	select u.id_worker as [РќРѕРјРµСЂ СЂР°Р±РѕС‡РµРіРѕ],
+	u.id_detail as [РќРѕРјРµСЂ РґРµС‚Р°Р»Рё],
+			u.id_oper as [РќРѕРјРµСЂ РѕРїРµСЂР°С†РёРё],
+			u.date_work as [Р”Р°С‚Р° РІС‹РїРѕР»РЅРµРЅРёСЏ СЂР°Р±РѕС‚],
+			n.id_prof as [РќРѕРјРµСЂ РїСЂРѕС„РµСЃСЃРёРё],
+			n.razryad as [Р Р°Р·СЂСЏРґ СЂР°Р±РѕС‡РµРіРѕ],
+			n.time_all as [Р’СЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ СЂР°Р±РѕС‚С‹],
+			s.id_ceh as [РќРѕРјРµСЂ С†РµС…Р°],
+			s.id_uch as [РќРѕРјРµСЂ СѓС‡Р°СЃС‚РєР°],
+			u.kolvo_bad as [РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СЂР°РєР°],
+			u.kolvo_good as [РљРѕР»РёС‡РµСЃС‚РІРѕ РіРѕРґРЅС‹С… РґРµС‚Р°Р»РµР№],
+			s.FIO as [Р¤РРћ]
 from uchet u
 join norm n on u.id_detail = n.id_detail and u.id_oper = n.id_oper
 join sostav s on s.id_worker = u.id_worker
