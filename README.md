@@ -4,9 +4,9 @@
 
 <h4 align="center">05:Нормы затрат труда <–>> 11:Учет выработки <<–> 10:Личный состав</h4>
 
-<h3 align="center"><img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/norm.PNG" height="135"/>
-<img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/uchet.PNG" height="135"/>
-<img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/sostav.PNG" height="135"/></h3>
+<h3 align="center"><img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/norm.PNG" height="150"/>
+<img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/sostav.PNG" height="150"/>
+<img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/uchet.PNG" height="150"/></h3>
 
 <h6 align="center">SQL-script для создания и загрузки данных в таблицы можно посмотреть 
 <a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/proektCreateBD.sql" target="_blank">тут</a>.
