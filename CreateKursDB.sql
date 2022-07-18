@@ -1,24 +1,24 @@
 use KursDB
-CREATE TABLE norm ( -- Пооперационные нормы затрат труда на изготовление
+CREATE TABLE norm ( -- РџРѕРѕРїРµСЂР°С†РёРѕРЅРЅС‹Рµ РЅРѕСЂРјС‹ Р·Р°С‚СЂР°С‚ С‚СЂСѓРґР° РЅР° РёР·РіРѕС‚РѕРІР»РµРЅРёРµ
 id_detail INT NOT NULL,
 id_oper INT NOT NULL,
 id_prof INT,
 razryad INT,
 id_work INT,
-time_all VARCHAR(10) default ('30 мин.'),
+time_all VARCHAR(10) default ('30 Г¬ГЁГ­.'),
 time_one INT,
 PRIMARY KEY (id_detail, id_oper)
 )
-CREATE TABLE sostav( -- Личный состав 
+CREATE TABLE sostav( -- Р›РёС‡РЅС‹Р№ СЃРѕСЃС‚Р°РІ 
 id_worker INT NOT NULL PRIMARY KEY,
 id_ceh INT,
 id_uch INT,
 id_prof INT,
 razryad INT,
-family VARCHAR(20) default ('Свободен(на)'),
+family VARCHAR(20) default ('Г‘ГўГ®ГЎГ®Г¤ГҐГ­(Г­Г )'),
 FIO VARCHAR(20)
 )
-CREATE TABLE uchet( -- Учет выработки рабочих 
+CREATE TABLE uchet( --  РЈС‡РµС‚ РІС‹СЂР°Р±РѕС‚РєРё СЂР°Р±РѕС‡РёС… 
 id_worker INT NOT NULL,
 date_work DATE NOT NULL,
 id_detail INT NOT NULL,
@@ -31,7 +31,7 @@ FOREIGN KEY (id_worker) REFERENCES sostav(id_worker),
 FOREIGN KEY(id_detail, id_oper) REFERENCES norm(id_detail, id_oper)
 )
 GO 
-CREATE TRIGGER A_trigger -- Триггер 1
+CREATE TRIGGER A_trigger 
 ON norm
 INSTEAD OF DELETE AS
 BEGIN
@@ -41,7 +41,7 @@ BEGIN
 				WHERE id_detail IN (SELECT id_detail FROM DELETED) AND id_oper IN (SELECT id_oper FROM DELETED)
 			END
 GO 
-CREATE TRIGGER B_trigger -- Триггер 2
+CREATE TRIGGER B_trigger 
 ON norm
 AFTER INSERT AS 
 BEGIN
@@ -50,7 +50,7 @@ BEGIN
     WHERE exists ( select * from inserted i where i.id_detail=uchet.id_detail and i.id_oper=uchet.id_oper)
 END
 go
-CREATE PROCEDURE A_proc( --	Найти количество небракованных деталей, сделанных рабочим
+CREATE PROCEDURE A_proc( -- РљРѕР»РёС‡РµСЃС‚РІРѕ РЅРµР±СЂР°РєРѕРІР°РЅРЅС‹С… РґРµС‚Р°Р»РµР№, СЃРґРµР»Р°РЅРЅС‹С… СЂР°Р±РѕС‡РёРј
 @id_worker int,
 @kolvo_good int output
 )
@@ -60,7 +60,7 @@ set @kolvo_good= (select SUM(uchet.kolvo_good) FROM uchet
 where uchet.id_worker = @id_worker)
 end
 go
--- Загрузка данных в таблицы
+-- Р—Р°РіСЂСѓР·РєР° РґР°РЅРЅС‹С… РІ С‚Р°Р±Р»РёС†С‹
 INSERT INTO norm(id_detail,id_oper,id_prof,razryad,id_work, time_one)
 VALUES 
 (1, 1, 1, 1,1,5),
@@ -70,10 +70,10 @@ VALUES
 (4, 1, 10, 3,4,15);
 INSERT INTO sostav(id_worker,id_ceh,id_uch,id_prof,razryad,FIO)
 VALUES
-(1,1,3,1,1,'Иванов И.И.'),
-(2,1,2,10,3,'Петров П.П.'),
-(3,2,1,2,4,'Усманова М.А.'),
-(4,3,5,1,1,'Сидорова У.П.');
+(1,1,3,1,1,'Г€ГўГ Г­Г®Гў Г€.Г€.'),
+(2,1,2,10,3,'ГЏГҐГІГ°Г®Гў ГЏ.ГЏ.'),
+(3,2,1,2,4,'Г“Г±Г¬Г Г­Г®ГўГ  ГЊ.ГЂ.'),
+(4,3,5,1,1,'Г‘ГЁГ¤Г®Г°Г®ГўГ  Г“.ГЏ.');
 INSERT INTO uchet(id_worker,date_work,id_detail, id_oper,kolvo_good,kolvo_bad)
 VALUES
 (1,'2019-05-09',1,1,100,1),
