@@ -9,7 +9,7 @@
 <img src="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/images/uchet.PNG" height="150"/></h3>
 
 <h6 align="center">SQL-script для создания и загрузки данных в таблицы можно посмотреть 
-<a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/proektCreateBD.sql" target="_blank">тут</a>.
+<a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/CreateKursDB.sql" target="_blank">тут</a>.
 
 ## Главная экранная форма (<a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/Coursework/DataDispley.cs" target="_blank">DataDisplay.cs</a>)
 
@@ -23,7 +23,7 @@
 
 ## Представление данных через VIEW (<a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/Coursework/VIEW.cs" target="_blank">VIEW.cs</a>)
 
-Создание представления (VIEW), которое показывает в виде одной таблицы данные из трех таблиц, соединенных в соответствии с межтабличными связями межу ними. 
+Создание представления (<a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/CreateVIEW.sql" target="_blank">VIEW</a>), которое показывает в виде одной таблицы данные из трех таблиц, соединенных в соответствии с межтабличными связями межу ними. 
 
 ## Task 1 (<a href="https://github.com/norvdaw/Coursework-WinForms-SQL/blob/main/Coursework/Task1.cs" target="_blank">Task1.cs</a>)
 
